@@ -1,4 +1,3 @@
-
 /* Adaugam variabile globale: */
 :root {
   --text-primary: #101d42;
@@ -11,8 +10,8 @@
   --bg-dark: #101d42;
 }
 
-/ Resetam proprietati default: */
-{
+/* Resetam proprietati default: */
+* {
 box-sizing: border-box;
 }
 
@@ -33,9 +32,9 @@ a {
   
 }
 
-/* a:hover {
+a:hover {
   color: inherit;
-} */
+}
 
 /* Customizam Bootstrap: */
 .btn-primary,
