@@ -22,3 +22,10 @@ A news application that provides the latest updates in three main categories: **
 
    ```bash
    git clone https://github.com/username/news-app.git
+   
+   Install dependencies:
+   npm install
+   
+   Run the application:
+   npm start
+
