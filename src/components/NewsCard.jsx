@@ -20,8 +20,10 @@ export default function NewsCard (props) {
         <Card className="newsCard d-flex flex-column justify-content-between align-items-center h-100">
             <Link to = {`/news/${encodeURIComponent(newsId)}`}>
             <Card.Img src = {imgSrc} variant = "top"/>
-                <Card.Title>{title}</Card.Title>
-                <Card.Text>{description}</Card.Text>
+                <Card.Body>
+                    <Card.Title>{title}</Card.Title>
+                    <Card.Text>{description}</Card.Text>
+                </Card.Body>
             </Link>
             {/* Daca avem buton de eliminare de la favorite atunci il afisam */}
             {hasCloseButton && (
